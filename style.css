@@ -5,7 +5,7 @@ body {
     min-width: 1000px;
 }
 
-/* bar info */
+/* top section*/
 
 .top-section {
     display: flex;
@@ -15,6 +15,8 @@ body {
     padding-bottom: 75px;
     justify-content: space-between;
 }
+
+/* bar info */
 
 .bar {
     display: flex;
@@ -30,7 +32,7 @@ ul {
     gap: 10px;
     padding: 0px;
     margin: 0px;
-    color: #E5E7EB;
+    color: lightgray;
     font-size: 18px;
 }
 
@@ -63,15 +65,16 @@ ul {
 }
 
 .secondary-text {
-    color: #E5E7EB;
+    color: lightgray;
     font-size: 18px;
 }
 
 .place-holder {
     display:flex;
-    background-color: #E5E7EB;;
+    background-color: gray;
     align-items: center;
     justify-content: center;
+    color: white;
 }
 
 .header button {
@@ -129,6 +132,31 @@ ul {
 .box p {
     text-align: center;
     width: 150px;
+    color: gray;
 }
 
 /* inspiring quote */
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    padding: 75px 100px;
+    background-color:lightgray;
+}
+
+.quote {
+    color: #1f2937;
+    margin: 0;
+}
+
+.quote-body {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-thor {
+    font-size: 24px;
+    text-align: right;
+    font-weight: bold;
+}
